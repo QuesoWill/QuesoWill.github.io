@@ -30,7 +30,7 @@ const CONFIG = {
   linkedin: "https://www.linkedin.com/in/will-scharpf-b51ba5302/",
   website:  "",   // leave as "" to hide
 
-  headshot: "images/headshot.jpg",
+  headshot: "images/headshot (2).jpg",
 
 
   // =========================================================
