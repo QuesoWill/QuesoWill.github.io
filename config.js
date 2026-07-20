@@ -105,11 +105,7 @@ const CONFIG = {
       role:    "Instructional Technology Consultant",
       org:     "Technology Studio, Weinstein Learning Center, University of Richmond",
       years:   "2022 - 2025",
-      blurb:   " Trained students, faculty and staff on cameras, software (e.g., Photoshop, Excel), and studio services
-(e.g., poster printing, VR, 3D printing), and, when necessary, helped them complete their projects.
-• Served as a liaison with software developers to alpha-test new campus technology products.
-• Maintained computer lab and upkept sensitive equipment.
-• Worked with faculty to incorporate new technologies into their courses."
+      blurb:   " Trained students, faculty and staff on cameras, software (e.g., Photoshop, Excel), and studio services"
     },
   ],
 
