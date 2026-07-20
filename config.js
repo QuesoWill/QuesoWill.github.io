@@ -105,7 +105,7 @@ const CONFIG = {
       role:    "Instructional Technology Consultant",
       org:     "Technology Studio, Weinstein Learning Center, University of Richmond",
       years:   "2022 - 2025",
-      blurb:   " Trained students, faculty and staff on cameras, software (e.g., Photoshop, Excel), and studio services"
+      blurb:   "Trained students, faculty and staff on cameras, software (e.g., Photoshop, Excel), and studio services"
     },
   ],
 
