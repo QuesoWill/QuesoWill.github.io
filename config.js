@@ -21,13 +21,13 @@ const CONFIG = {
   // BASICS — name, contact, headshot
   // =========================================================
 
-  name: "Jane Cartographer",
-  tagline: "GIS Analyst & Community-Engaged Cartographer",
-  location: "Richmond, Virginia",
+  name: "William Scharpf",
+  tagline: "B.A. in Leadership Studies with a Minor in Data Science and Statistics, University of Richmond, 2026",
+  location: "Baltimore, Maryland",
 
-  email:    "jane.cartographer@example.com",
-  github:   "https://github.com/yourusername",
-  linkedin: "https://linkedin.com/in/yourusername",
+  email:    "williamascharpf@gmail.com",
+  github:   "https://github.com/QuesoWill",
+  linkedin: "https://www.linkedin.com/in/will-scharpf-b51ba5302/",
   website:  "",   // leave as "" to hide
 
   headshot: "images/headshot.svg",
@@ -38,9 +38,7 @@ const CONFIG = {
   // 1-2 sentences. Keep it punchy.
   // =========================================================
 
-  shortBio: `Senior at the University of Richmond studying Geography
-             and Data Science, focused on open spatial data, community
-             cartography, and making maps that answer real questions.`,
+  shortBio: `B.A. in Leadership Studies with a Minor in Data Science and Statistics, University of Richmond, 2026`,
 
 
   // =========================================================
