@@ -96,16 +96,20 @@ const CONFIG = {
 
   experience: [
     {
-      role:    "Undergraduate Research Fellow",
-      org:     "Spatial Analysis Lab, University of Richmond",
-      years:   "2024 - present",
-      blurb:   "Lead a small team on ACS uncertainty analysis under Dr. Plaxco."
+      role:    "Student Manager",
+      org:     "Technology Studio, Weinstein Learning Center, University of Richmond",
+      years:   "2025 - 2026",
+      blurb:   "Supervised and trained 20+ student employees and oversaw daily studio operations. Collaborated with full-time staff and campus departments to develop and improve service offerings. Conducted interviews and supported hiring decisions for new student staff. Planned and led weekly staff meetings."
     },
     {
-      role:    "GIS Intern",
-      org:     "City of Richmond, Office of Sustainability",
-      years:   "Summer 2024",
-      blurb:   "Built tree-equity dashboards now used by neighborhood groups."
+      role:    "Instructional Technology Consultant",
+      org:     "Technology Studio, Weinstein Learning Center, University of Richmond",
+      years:   "2022 - 2025",
+      blurb:   " Trained students, faculty and staff on cameras, software (e.g., Photoshop, Excel), and studio services
+(e.g., poster printing, VR, 3D printing), and, when necessary, helped them complete their projects.
+• Served as a liaison with software developers to alpha-test new campus technology products.
+• Maintained computer lab and upkept sensitive equipment.
+• Worked with faculty to incorporate new technologies into their courses."
     },
   ],
 
