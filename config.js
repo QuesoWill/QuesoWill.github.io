@@ -76,7 +76,7 @@ const CONFIG = {
   education: [
     {
       school: "University of Richmond",
-      degree: "B.A., Leadership Studies, Minor, Data Science and Statistics",
+      degree: "B.A., Leadership Studies & Data Science and Statistics",
       year:   "May 2026",
       note:   "Cum Laude"
     },
