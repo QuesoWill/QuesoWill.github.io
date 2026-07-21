@@ -113,6 +113,53 @@ const CONFIG = {
       years:   "2025 - 2026",
       blurb:   "Recorded and managed Trackman pitching data during home games. Maintained accurate player performance datasets"
     },
+    {
+      role:    "Intern",
+      org:     "Johns Hopkins University, Bloomberg School of Public Health",
+      years:   "Spring 2022",
+      blurb:   "Conducted statistical research and stress-tested databases in advance of pharmaceutical trails; used R and Stata to clean data"
+    },
+    {
+      role:    "Orange Ambassador",
+      org:     "Chesapeake Baysox, (Orioles AA Affiliate)",
+      years:   "Summer 2025",
+      blurb:   "Assisted front office set	up	and executed on-field entertainment	and sponsorship deliverables. Engaged with fans	to	improve their experience; handpicked contestants and performed	on	the field. Pinch-hit in other departments (e.g., batter walk-up music DJ, ticket scanning at the gates). Advertised promotional events by calling local businesses and canvassing door to door."
+     {
+      role:    "Lead Counselor",
+      org:     "Summer at Friends",
+      years:   "Summer 2023 and Summer 2024",
+      blurb:   "Managed and mentored a staff of 100+ across multiple camp divisions. Ensured compliance with all State of Maryland regulatory procedures. Resolved conflicts,	managed emergencies,	and oversaw	logistics for camp-wide	events."
+    },
+      {
+      role:    "Head Counselor",
+      org:     "Summer at Friends",
+      years:   "Summer 2021 and Summer 2022",
+      blurb:   "Planned, set up and	executed	day-long	special events	such as field days and water games. Supervised a set group of campers during activities across all programming areas. Oversaw a team of 3–6 Counselors and Counselors-in-Training"
+    },
+      {
+      role:    "Assistant Counselor",
+      org:     "Summer at Friends",
+      years:   "Summer 2019",
+      blurb:   "Provided individualized supervision and support for campers with behavioral and learning differences. Organized the ordering and distribution of lunches across different camp groups. Assisted camp groups in need of extra help."
+    },
+      {
+      role:    "Volunteer Math Tutor",
+      org:     "Henrico County Juvenile Detention Home",
+      years:   "Spring 2024",
+      blurb:   "Tutored residents in math, working one-on-one, and assisted residents with the completion of materials for their personalized curricula."
+    },
+     {
+      role:    "Volunteer",
+      org:     "Habitat for Humanity reStore",
+      years:   "Summer 2019",
+      blurb:   "Inventoried donations, helped customers, assembled furniture and stocked shelves, all in support of Habitat for Humanity’s mission to build affordable housing"
+    },
+      {
+      role:    "Intern",
+      org:     "T. Rowe Price",
+      years:   "Spring 2022",
+      blurb:   "Applied	financial basics to researching and	collecting data on investing scenarios, then	presented findings to research staff."
+    },
   ],
 
 
