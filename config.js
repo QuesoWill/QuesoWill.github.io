@@ -130,31 +130,31 @@ const CONFIG = {
       years:   "Summer 2023 and Summer 2024",
       blurb:   "Managed and mentored a staff of 100+ across multiple camp divisions. Ensured compliance with all State of Maryland regulatory procedures. Resolved conflicts,	managed emergencies,	and oversaw	logistics for camp-wide	events."
     },
-      {
+    {
       role:    "Head Counselor",
       org:     "Summer at Friends",
       years:   "Summer 2021 and Summer 2022",
       blurb:   "Planned, set up and	executed	day-long	special events	such as field days and water games. Supervised a set group of campers during activities across all programming areas. Oversaw a team of 3–6 Counselors and Counselors-in-Training"
     },
-      {
+    {
       role:    "Assistant Counselor",
       org:     "Summer at Friends",
       years:   "Summer 2019",
       blurb:   "Provided individualized supervision and support for campers with behavioral and learning differences. Organized the ordering and distribution of lunches across different camp groups. Assisted camp groups in need of extra help."
     },
-      {
+    {
       role:    "Volunteer Math Tutor",
       org:     "Henrico County Juvenile Detention Home",
       years:   "Spring 2024",
       blurb:   "Tutored residents in math, working one-on-one, and assisted residents with the completion of materials for their personalized curricula."
     },
-     {
+    {
       role:    "Volunteer",
       org:     "Habitat for Humanity reStore",
       years:   "Summer 2019",
       blurb:   "Inventoried donations, helped customers, assembled furniture and stocked shelves, all in support of Habitat for Humanity’s mission to build affordable housing"
     },
-      {
+    {
       role:    "Intern",
       org:     "T. Rowe Price",
       years:   "Spring 2022",
