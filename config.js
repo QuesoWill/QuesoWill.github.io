@@ -171,21 +171,28 @@ const CONFIG = {
 
   skillGroups: [
     {
-      label: "Desktop GIS",
-      skills: ["ArcGIS Pro", "QGIS", "ArcGIS Online"]
+      label: "GIS",
+      skills: ["ArcGIS Pro", "QGIS", "ArcGIS Online", "OSM", "QGIS"]
     },
     {
       label: "Programming",
-      skills: ["Python", "R", "SQL", "JavaScript (basic)"]
+      skills: ["Python", "R", "STATA", "JavaScript"]
     },
     {
-      label: "Web mapping",
-      skills: ["Leaflet", "MapLibre GL JS", "Mapbox Studio"]
+      label: "Remote Sensing",
+      skills: ["ENVI", "Google Eath Engine"]
     },
     {
       label: "Data & databases",
-      skills: ["PostGIS", "Pandas", "GeoPandas", "Tableau"]
+      skills: ["PowerBI", "Tableau", "Trackman"]
     },
+     {
+        label: "Media Editing",
+        skills: ["Adobe Suite (Illustrator, Photoshop, Premiere)", "Ableton Live", "iMovie", "Final Cut Pro"]
+     },
+     {
+        label: "Office Suites",
+        skills: ["Microsoft (including Access and Excel)", "Google Suite", "Slate", "TeamDynamix"]
   ],
 
 
