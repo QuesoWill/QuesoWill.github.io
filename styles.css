@@ -18,7 +18,7 @@
    ============================================================ */
 
 
-/* ---------- THEME 1: GRAPHITE (default) ---------- */
+/* ---------- THEME 1: GRAPHITE (default) ---------- 
 :root {
   --bg:           #f4f0e8;
   --bg-alt:       #ebe6dc;
@@ -30,6 +30,7 @@
   --accent-soft:  #f0d8d4;
   --paper-grain:  rgba(0, 0, 0, 0.018);
 }
+*/
 
 /* ---------- THEME 2: ATLAS ----------
 :root {
@@ -73,7 +74,7 @@
 }
 */
 
-/* ---------- THEME 5: RISOGRAPH ----------
+---------- THEME 5: RISOGRAPH ----------
 :root {
   --bg:           #f5f1ea;
   --bg-alt:       #ece6db;
@@ -85,7 +86,6 @@
   --accent-soft:  #fbd7cf;
   --paper-grain:  rgba(0, 0, 0, 0.022);
 }
-*/
 
 
 /* ============================================================
