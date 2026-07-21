@@ -107,7 +107,7 @@ const CONFIG = {
       years:   "2022 - 2025",
       blurb:   "Trained students, faculty and staff on cameras, software (e.g., Photoshop, Excel), and studio services"
     },
-      {
+    {
       role:    "Data Analyst",
       org:     "Spider's Baseball, University of Richmond",
       years:   "2025 - 2026",
