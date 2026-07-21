@@ -193,6 +193,7 @@ const CONFIG = {
      {
         label: "Office Suites",
         skills: ["Microsoft (including Access and Excel)", "Google Suite", "Slate", "TeamDynamix"]
+     }
      ],
 
 
