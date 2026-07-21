@@ -59,7 +59,7 @@
   --paper-grain:  rgba(0, 0, 0, 0.02);
 }
 */
-
+/* 
  ---------- THEME 4: NOCTURNE ----------
 :root {
   --bg:           #15181c;
@@ -72,9 +72,9 @@
   --accent-soft:  #3a2f1c;
   --paper-grain:  rgba(255, 255, 255, 0.015);
 }
+*/
 
-
-/*---------- THEME 5: RISOGRAPH ----------
+---------- THEME 5: RISOGRAPH ----------
 :root {
   --bg:           #f5f1ea;
   --bg-alt:       #ece6db;
@@ -86,7 +86,7 @@
   --accent-soft:  #fbd7cf;
   --paper-grain:  rgba(0, 0, 0, 0.022);
 }
-*/
+
 
 /* ============================================================
    ADVANCED: everything below this line controls layout and
