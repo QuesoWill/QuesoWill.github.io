@@ -119,11 +119,12 @@ const CONFIG = {
       years:   "Spring 2022",
       blurb:   "Conducted statistical research and stress-tested databases in advance of pharmaceutical trails; used R and Stata to clean data"
     },
-         {
+    {
       role:    "Orange Ambassador",
       org:     "Chesapeake Baysox, (Orioles AA Affiliate)",
       years:   "Summer 2025",
       blurb:   "Assisted front office set	up	and executed on-field entertainment	and sponsorship deliverables. Engaged with fans	to	improve their experience; handpicked contestants and performed	on	the field. Pinch-hit in other departments (e.g., batter walk-up music DJ, ticket scanning at the gates). Advertised promotional events by calling local businesses and canvassing door to door."
+    },
      {
       role:    "Lead Counselor",
       org:     "Summer at Friends",
