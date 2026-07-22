@@ -215,14 +215,12 @@ const CONFIG = {
   projects: [
 
     {
-      slug:        "tree-equity",
-      title:       "Tree Equity in Jackson Ward",
-      year:        "2025",
-      type:        "Community Mapping",
-      thumbnail:   "images/projects/tree-equity-thumb.svg",
-      blurb:       `A block-by-block analysis of canopy gaps in a historically
-                    redlined Richmond neighborhood, built with the Historic
-                    Jackson Ward Association.`,
+      slug:        "uralum",
+      title:       "University of Rihcmond Major Alumni Donors Represented in Class of 2027 Prespective Students",
+      year:        "2026",
+      type:        "Department Deliverable",
+      thumbnail:   "images/projects/willnewproj.jpg",
+      blurb:       `This map was created for the University of Richmond Alumni Assocation and uses data they provided. The map has a feature for every zipcode containing the residence of a major donor. The color of the feature indicates if the class of 2027 prospective student list contains someone from within that zipcode. `,
       tags:        ["ArcGIS Pro", "Python", "MapLibre", "Community-Engaged"],
       detailPage:  "project-tree-equity.html",
       featured:    true,
