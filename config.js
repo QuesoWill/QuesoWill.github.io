@@ -227,28 +227,24 @@ const CONFIG = {
     },
 
     {
-      slug:        "acs-uncertainty",
-      title:       "Hidden Uncertainty in ACS Health Data",
-      year:        "2025",
+      slug:        "nepal",
+      title:       "People Affectd by 2015 Earthquakes in Nepal",
+      year:        "2026",
       type:        "Spatial Statistics",
-      thumbnail:   "images/projects/acs-uncertainty-thumb.svg",
-      blurb:       `A simulation study showing how margins of error in
-                    American Community Survey estimates propagate through
-                    public-health risk models.`,
+      thumbnail:   "images/projects/layout500m.jpg",
+      blurb:       `These maps show the density of people in areas affected by the 2015 earthquakes in Nepal. Each map uses a different size raster.`,
       tags:        ["R", "GLM", "Monte Carlo", "Research"],
       detailPage:  "project-acs-uncertainty.html",
       featured:    true,
     },
 
     {
-      slug:        "kde-traffic",
-      title:       "Where the Crashes Cluster",
-      year:        "2024",
+      slug:        "rvxelevation",
+      title:       "Comparison of IDW and STRM models of Elevation",
+      year:        "2026",
       type:        "Spatial Analysis",
-      thumbnail:   "images/projects/kde-traffic-thumb.svg",
-      blurb:       `A kernel density analysis of three years of
-                    traffic-accident data in Gainesville, Florida, with
-                    an interactive bandwidth control.`,
+      thumbnail:   "images/projects/schmap1.jpg",
+      blurb:       `These maps display elevations across the University of Richmond campus using a variety of different models. `,
       tags:        ["QGIS", "Python", "Leaflet", "KDE"],
       detailPage:  "project-kde-traffic.html",
       featured:    true,
