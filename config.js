@@ -274,7 +274,7 @@ const CONFIG = {
       featured:    false,
     },
          {
-      slug:        "delta",
+      slug:        "label",
       title:       "Labeling of Continental US",
       year:        "2026",
       type:        "Historical GIS",
@@ -285,11 +285,11 @@ const CONFIG = {
       featured:    false,
     },
               {
-      slug:        "delta",
+      slug:        "hotspot",
       title:       "Endocrine, Nutritiional, and Metabolic Death Hot Spots",
       year:        "2026",
       type:        "Historical GIS",
-      thumbnail:   "images/projects/scharpflayout.jpg",
+      thumbnail:   "images/projects/scharpflayout1.jpg",
       blurb:       `These maps show deaths by endocrine, nutritional, and metabolic diseases across counties in the southeastern US. The first map uses a Getis-Ord GI* clustering method whilst the second uses Local Moran's I.`,
       tags:        ["ArcGIS Pro", "GDAL", "COG", "Archives"],
       detailPage:  "project-sanborn-mosaic.html",
