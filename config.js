@@ -216,10 +216,10 @@ const CONFIG = {
 
     {
       slug:        "uralum",
-      title:       "University of Rihcmond Major Alumni Donors Represented in Class of 2027 Prespective Students",
+      title:       "UR Alumni Donors Represented in 2027 Prespective Students",
       year:        "2026",
       type:        "Department Deliverable",
-      thumbnail:   "images/projects/willnewproj.jpg",
+      thumbnail:   "images/projects/willfinalmap.png",
       blurb:       `This map was created for the University of Richmond Alumni Assocation and uses data they provided. The map has a feature for every zipcode containing the residence of a major donor. The color of the feature indicates if the class of 2027 prospective student list contains someone from within that zipcode. `,
       tags:        ["ArcGIS Pro", "Python", "MapLibre", "Community-Engaged"],
       detailPage:  "project-tree-equity.html",
