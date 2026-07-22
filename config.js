@@ -252,19 +252,49 @@ const CONFIG = {
 
     // Example of a non-featured project (will appear on /projects only):
     {
-      slug:        "sanborn-mosaic",
-      title:       "Stitching the Sanborn Atlases of Richmond",
-      year:        "2023",
+      slug:        "delta",
+      title:       "Animation of Delta Flights out of DTW",
+      year:        "2026",
       type:        "Historical GIS",
-      thumbnail:   "images/projects/sanborn-mosaic-thumb.svg",
-      blurb:       `Georeferenced and mosaicked a set of 1905 Sanborn fire
-                    insurance maps into a single cloud-optimized GeoTIFF
-                    for use in archival research.`,
+      thumbnail:   "images/projects/del2v2c.gif",
+      blurb:       `This GIF map shows the time and destination of Detla flights out of DTW on 6/21/22.`,
       tags:        ["ArcGIS Pro", "GDAL", "COG", "Archives"],
       detailPage:  "project-sanborn-mosaic.html",
       featured:    false,
     },
-
+ {
+      slug:        "pizza",
+      title:       "Optimal PIzzeria Location",
+      year:        "2026",
+      type:        "Historical GIS",
+      thumbnail:   "images/projects/map2.jpg",
+      blurb:       `This map displays the optimal location for a new pizzeria to be opened in Giles County, Virginia, based on the number of demand points within a 15 minute drive of the location. This is done by geocoding the prexisting locations and converting a roads shapefile into a network dataset. Network analysis tools were then used to find the demand points serviced by each facility as well as the optimal location of a new pizzeria.`,
+      tags:        ["ArcGIS Pro", "GDAL", "COG", "Archives"],
+      detailPage:  "project-sanborn-mosaic.html",
+      featured:    false,
+    },
+         {
+      slug:        "delta",
+      title:       "Labeling of Continental US",
+      year:        "2026",
+      type:        "Historical GIS",
+      thumbnail:   "images/projects/lab7.png",
+      blurb:       `This map of the continental US shows off my ability to create labels.`,
+      tags:        ["ArcGIS Pro", "GDAL", "COG", "Archives"],
+      detailPage:  "project-sanborn-mosaic.html",
+      featured:    false,
+    },
+              {
+      slug:        "delta",
+      title:       "Endocrine, Nutritiional, and Metabolic Death Hot Spots",
+      year:        "2026",
+      type:        "Historical GIS",
+      thumbnail:   "images/projects/scharpflayout.jpg",
+      blurb:       `These maps show deaths by endocrine, nutritional, and metabolic diseases across counties in the southeastern US. The first map uses a Getis-Ord GI* clustering method whilst the second uses Local Moran's I.`,
+      tags:        ["ArcGIS Pro", "GDAL", "COG", "Archives"],
+      detailPage:  "project-sanborn-mosaic.html",
+      featured:    false,
+    },
   ],
 
 
