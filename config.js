@@ -38,7 +38,7 @@ const CONFIG = {
   // 1-2 sentences. Keep it punchy.
   // =========================================================
 
-  shortBio: `My name is Will and I am a 2026 graduate of the University of Richmond with B.A. in Leadership Studies and a Minor in Data Science and Statistics. With a passion of creating data visualizations`,
+  shortBio: `My name is Will and I am a 2026 graduate of the University of Richmond with B.A. in Leadership Studies and a Minor in Data Science and Statistics. I was born and raised in Baltimore, Maryland where a developed a passion of creating data visualizations`,
 
 
   // =========================================================
