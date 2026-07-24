@@ -22,7 +22,7 @@ const CONFIG = {
   // =========================================================
 
   name: "William Scharpf",
-  tagline: "Seeking entry-level position in Cartography or GIS",
+  tagline: "Seeking an entry-level position in Cartography or GIS",
   location: "Baltimore, Maryland",
 
   email:    "williamascharpf@gmail.com",
