@@ -47,8 +47,11 @@ const CONFIG = {
   // To split into paragraphs, use \n\n between them.
   // =========================================================
 
-  longBio: ` 
-`,
+  longBio: `My college journey did not follow a straight line. I entered the University of Richmond thinking I would major in business. I opted for their Jepson School of Leadership Studies because I liked its unique combination of ethics, psychology, and management. Since I have always had a passion for creating data visualizations, I minored in Data Science and Statistics. That’s when I took my first GIS class. As the maps I made in class became more clear at communicating the information being displayed, so did the map in my mind. After two more GIS classes, I now had a clean, synthesized map of where I want to go. 
+ 
+This fall, B.A. in hand, I am continuing my GIS education, studying for a Graduate Certificate in Geospatial Technologies at Towson University, home of the prestigious Center for GIS (CGIS).
+ 
+Here is a portfolio of some of my class work at the University of Richmond. I hope to be adding new work from Towson University very soon.`,
 
 
   // ======================================================= ==
