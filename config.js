@@ -22,7 +22,7 @@ const CONFIG = {
   // =========================================================
 
   name: "William Scharpf",
-  tagline: "Seeking entry-level position in Cartography and/or GIS Analysis",
+  tagline: "Seeking entry-level position in Cartography or GIS",
   location: "Baltimore, Maryland",
 
   email:    "williamascharpf@gmail.com",
@@ -38,7 +38,7 @@ const CONFIG = {
   // 1-2 sentences. Keep it punchy.
   // =========================================================
 
-  shortBio: `Hello, my name is Will and I am a 2026 graduate of the University of Richmond with B.A. in Leadership Studies with a Minor in Data Science and Statistics. With a passion of creating data visualizations`,
+  shortBio: `My name is Will and I am a 2026 graduate of the University of Richmond with B.A. in Leadership Studies with a Minor in Data Science and Statistics. With a passion of creating data visualizations`,
 
 
   // =========================================================
