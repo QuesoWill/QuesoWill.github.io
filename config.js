@@ -205,7 +205,7 @@ Here is a portfolio of some of my class work at the University of Richmond. I ho
       title:       "Japanese vs. American Leadership Styles of Youth Baseball Coaching",
       year:        "2024",
       type:        "Research Paper",
-      thumbnail:   src="https://docs.google.com/document/d/e/2PACX-1vRYyS8V4kWO0_bpShZUJ27dXVg90zHObCaEJZmimbNi7LXAQs1hcb7gq2hrmN5-i8pTWj4yRftyKAOA/pub?embedded=true"> </iframe>,"
+      thumbnail:   "https://docs.google.com/document/d/e/2PACX-1vRYyS8V4kWO0_bpShZUJ27dXVg90zHObCaEJZmimbNi7LXAQs1hcb7gq2hrmN5-i8pTWj4yRftyKAOA/pub?embedded=true"
       blurb:       `Research paper on quantitative analysis of player performance outcomes at the professional level, containing graphs and charts displaying collected data.`,
       tags:        ["Research", "Google Sheets", "Sports Reference", "Combining Databases"],
       detailPage:  "project-tree-equity.html",
