@@ -201,6 +201,17 @@ Here is a portfolio of some of my class work at the University of Richmond. I ho
   projects: [
 
     {
+      slug:        "writing",
+      title:       "Japanese vs. American Leadership Styles of Youth Baseball Coaching",
+      year:        "2024",
+      type:        "Research Paper",
+      thumbnail:   <iframe src="https://docs.google.com/document/d/e/2PACX-1vRYyS8V4kWO0_bpShZUJ27dXVg90zHObCaEJZmimbNi7LXAQs1hcb7gq2hrmN5-i8pTWj4yRftyKAOA/pub?embedded=true"> </iframe>,
+      blurb:       `Research paper on quantitative analysis of player performance outcomes at the professional level, containing graphs and charts displaying collected data.`,
+      tags:        ["Research", "Google Sheets", "Sports Reference", "Combining Databases"],
+      detailPage:  "project-tree-equity.html",
+      featured:    true,
+    },
+    {
       slug:        "uralum",
       title:       "UR Alumni Donors Represented in 2027 Prespective Students",
       year:        "2026",
@@ -209,7 +220,7 @@ Here is a portfolio of some of my class work at the University of Richmond. I ho
       blurb:       `This map was created for the University of Richmond Alumni Assocation and uses data they provided. The map has a feature for every zipcode containing the residence of a major donor. The color of the feature indicates if the class of 2027 prospective student list contains someone from within that zipcode. `,
       tags:        ["ArcGIS Pro", "Python", "MapLibre", "Community-Engaged"],
       detailPage:  "project-tree-equity.html",
-      featured:    true,
+      featured:    false,
     },
 
     {
