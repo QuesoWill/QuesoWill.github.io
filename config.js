@@ -211,6 +211,37 @@ Here is a portfolio of some of my class work at the University of Richmond. I ho
       detailPage:  "project-tree-equity.html",
       featured:    true,
     },
+         {
+      slug:        "zombie",
+      title:       "Zombie Final Project",
+      year:        "2026",
+      type:        "Department Deliverable",
+      thumbnail:   "placeholder",
+      blurb:       `This map was created for the University of Richmond Alumni Assocation and uses data they provided. The map has a feature for every zipcode containing the residence of a major donor. The color of the feature indicates if the class of 2027 prospective student list contains someone from within that zipcode. `,
+      tags:        ["ArcGIS Pro", "Python", "MapLibre", "Community-Engaged"],
+      detailPage:  "project-sanborn-mosaic.html",
+      featured:    true,
+    },
+         {
+      slug:        "mapgally",
+      title:       "Map Gallery",
+      type:        "Gallery",
+      thumbnail:   "images/projects/layout500m.jpg",
+      blurb:       `Collection of some of my highlights as a cartographer.`,
+      tags:        ["ArcGis Pro", "Adobe Illustrator", "GIS", "Research"],
+      detailPage:  "project-acs-uncertainty.html",
+      featured:    true,
+    },
+      {
+      slug:        "nonspace",
+      title:       "Other Data Visualizations",
+      type:        "Gallery",
+      thumbnail:   "placeholder",
+      blurb:       `Collection of some of my data visulization works using non spatial data.`,
+      tags:        ["Excel", "Tableau", "R", "Google Sheets"],
+      detailPage:  "project-kde-traffic.html",
+      featured:    true,
+    },
     {
       slug:        "uralum",
       title:       "UR Alumni Donors Represented in 2027 Prespective Students",
@@ -232,7 +263,7 @@ Here is a portfolio of some of my class work at the University of Richmond. I ho
       blurb:       `These maps show the density of people in areas affected by the 2015 earthquakes in Nepal. Each map uses a different size raster.`,
       tags:        ["R", "GLM", "Monte Carlo", "Research"],
       detailPage:  "project-acs-uncertainty.html",
-      featured:    true,
+      featured:    false,
     },
 
     {
@@ -244,7 +275,7 @@ Here is a portfolio of some of my class work at the University of Richmond. I ho
       blurb:       `These maps display elevations across the University of Richmond campus using a variety of different models. `,
       tags:        ["QGIS", "Python", "Leaflet", "KDE"],
       detailPage:  "project-kde-traffic.html",
-      featured:    true,
+      featured:    false,
     },
 
     // Example of a non-featured project (will appear on /projects only):
