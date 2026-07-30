@@ -314,7 +314,7 @@ Here is a portfolio of some of my class work at the University of Richmond. I ho
     },
               {
       slug:        "hotspot",
-      title:       "Endocrine, Nutritiional, and Metabolic Death Hot Spots",
+      title:       "Endocrine, Nutritional, and Metabolic Death Hot Spots",
       year:        "2026",
       type:        "Historical GIS",
       thumbnail:   "images/projects/scharpflayout1.jpg",
