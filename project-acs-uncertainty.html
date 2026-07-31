@@ -9,28 +9,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=JetBrains+Mono:wght@400;500&family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
-<script>
-const lightbox = document.getElementById("lightbox");
-const lightboxImg = document.getElementById("lightbox-img");
-const closeBtn = lightbox.querySelector(".close");
-
-document.querySelectorAll(".clickable-image").forEach(img => {
-  img.addEventListener("click", () => {
-    lightboxImg.src = img.src;
-    lightbox.style.display = "flex";
-  });
-});
-
-closeBtn.addEventListener("click", () => {
-  lightbox.style.display = "none";
-});
-
-lightbox.addEventListener("click", (e) => {
-  if (e.target === lightbox) {
-    lightbox.style.display = "none";
-  }
-});
-</script>
 <body>
 
 <header id="site-header" class="site-header"></header>
