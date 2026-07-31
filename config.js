@@ -250,7 +250,6 @@ Here is a portfolio of some of my class work at the University of Richmond. I ho
       thumbnail:   "images/projects/willmapfinalcrop.png",
       blurb:       `This map was created for the University of Richmond Alumni Assocation and uses data they provided. The map has a feature for every zipcode containing the residence of a major donor. The color of the feature indicates if the class of 2027 prospective student list contains someone from within that zipcode. `,
       tags:        ["ArcGIS Pro", "Python", "MapLibre", "Community-Engaged"],
-      detailPage:  "project-tree-equity.html",
       featured:    false,
     },
 
@@ -262,7 +261,6 @@ Here is a portfolio of some of my class work at the University of Richmond. I ho
       thumbnail:   "images/projects/layout500m.jpg",
       blurb:       `These maps show the density of people in areas affected by the 2015 earthquakes in Nepal. Each map uses a different size raster.`,
       tags:        ["R", "GLM", "Monte Carlo", "Research"],
-      detailPage:  "project-acs-uncertainty.html",
       featured:    false,
     },
 
@@ -274,7 +272,6 @@ Here is a portfolio of some of my class work at the University of Richmond. I ho
       thumbnail:   "images/projects/schmap1.jpg",
       blurb:       `These maps display elevations across the University of Richmond campus using a variety of different models. `,
       tags:        ["QGIS", "Python", "Leaflet", "KDE"],
-      detailPage:  "project-kde-traffic.html",
       featured:    false,
     },
 
@@ -287,7 +284,6 @@ Here is a portfolio of some of my class work at the University of Richmond. I ho
       thumbnail:   "images/projects/del2v2c.gif",
       blurb:       `This GIF map shows the time and destination of Detla flights out of DTW on 6/21/22.`,
       tags:        ["ArcGIS Pro", "GDAL", "COG", "Archives"],
-      detailPage:  "project-sanborn-mosaic.html",
       featured:    false,
     },
  {
@@ -298,7 +294,6 @@ Here is a portfolio of some of my class work at the University of Richmond. I ho
       thumbnail:   "images/projects/map2.jpg",
       blurb:       `This map displays the optimal location for a new pizzeria to be opened in Giles County, Virginia, based on the number of demand points within a 15 minute drive of the location. This is done by geocoding the prexisting locations and converting a roads shapefile into a network dataset. Network analysis tools were then used to find the demand points serviced by each facility as well as the optimal location of a new pizzeria.`,
       tags:        ["ArcGIS Pro", "GDAL", "COG", "Archives"],
-      detailPage:  "project-sanborn-mosaic.html",
       featured:    false,
     },
          {
@@ -309,7 +304,6 @@ Here is a portfolio of some of my class work at the University of Richmond. I ho
       thumbnail:   "images/projects/lab7.png",
       blurb:       `This map of the continental US shows off my ability to create labels.`,
       tags:        ["ArcGIS Pro", "GDAL", "COG", "Archives"],
-      detailPage:  "project-sanborn-mosaic.html",
       featured:    false,
     },
               {
@@ -320,7 +314,6 @@ Here is a portfolio of some of my class work at the University of Richmond. I ho
       thumbnail:   "images/projects/scharpflayout1.jpg",
       blurb:       `These maps show deaths by endocrine, nutritional, and metabolic diseases across counties in the southeastern US. The first map uses a Getis-Ord GI* clustering method whilst the second uses Local Moran's I.`,
       tags:        ["ArcGIS Pro", "GDAL", "COG", "Archives"],
-      detailPage:  "project-sanborn-mosaic.html",
       featured:    false,
     },
                    {
@@ -331,7 +324,6 @@ Here is a portfolio of some of my class work at the University of Richmond. I ho
       thumbnail:   "images/projects/schdel.jpg",
       blurb:       `This 3D map shows hotels and roads on the island, where the size of the hotel represents the number of units it holds.`,
       tags:        ["ArcGIS Pro", "GDAL", "COG", "Archives"],
-      detailPage:  "project-sanborn-mosaic.html",
       featured:    false,
     },
   ],
