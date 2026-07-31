@@ -65,7 +65,7 @@
         '</a>' +
         '<nav class="header-nav">' +
           '<a href="index.html"     class="' + active('index.html') + '">Home</a>' +
-          '<a href="projects.html"  class="' + active('projects.html') + '">Work</a>' +
+          '<a href="project-acs-uncertainty.html"  class="' + active('project-acs-uncertainty.html') + '">Map Gallery</a>' +
           '<a href="about.html"     class="' + active('about.html') + '">About</a>' +
           '<a href="contact.html"   class="' + active('contact.html') + '">Contact</a>' +
         '</nav>' +
