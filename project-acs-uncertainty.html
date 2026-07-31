@@ -224,11 +224,37 @@ lightbox.addEventListener("click", (e) => {
 </main>
 
 <footer id="site-footer" class="site-footer"></footer>
-<script src="config.js"></script>
-<script src="components.js"></script>
+
 <div id="lightbox" class="lightbox">
   <span class="close">&times;</span>
   <img id="lightbox-img" src="" alt="">
 </div>
+
+<script src="config.js"></script>
+<script src="components.js"></script>
+
+<script>
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightbox-img");
+const closeBtn = lightbox.querySelector(".close");
+
+document.querySelectorAll(".clickable-image").forEach(img => {
+  img.addEventListener("click", () => {
+    lightboxImg.src = img.src;
+    lightbox.style.display = "flex";
+  });
+});
+
+closeBtn.addEventListener("click", () => {
+  lightbox.style.display = "none";
+});
+
+lightbox.addEventListener("click", (e) => {
+  if (e.target === lightbox) {
+    lightbox.style.display = "none";
+  }
+});
+</script>
+
 </body>
 </html>
