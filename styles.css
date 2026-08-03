@@ -765,6 +765,13 @@ section {
   overflow: hidden;
 }
 
+
+.project-hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .fit-frame {
   display: inline-block;
   width: fit-content;
@@ -776,13 +783,6 @@ section {
   max-width: 100%;
   height: auto;
 }
-
-.project-hero img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
 .project-hero figcaption,
 .prose-figure figcaption {
   font-family: 'JetBrains Mono', monospace;
