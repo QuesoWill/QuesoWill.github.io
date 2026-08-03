@@ -765,6 +765,11 @@ section {
   overflow: hidden;
 }
 
+.fit-frame {
+  display: inline-block;
+  width: fit-content;
+  margin: 0 auto;
+}
 
 .project-hero img {
   width: 100%;
@@ -772,16 +777,11 @@ section {
   display: block;
 }
 
-.fit-frame {
-  display: inline-block;
-  width: fit-content;
-  margin: 0 auto;
-}
 
-.fit-frame img {
-  width: auto;
-  max-width: 100%;
-  height: auto;
+.project-hero figure.fit-frame img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
 }
 .project-hero figcaption,
 .prose-figure figcaption {
