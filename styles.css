@@ -758,6 +758,13 @@ section {
   padding: 50px 48px 30px;
 }
 
+.project-hero img {
+  width: fit-content;
+  height: auto;
+  display: block;
+}
+
+
 .project-hero figure {
   margin: 0;
   border: 1px solid var(--rule);
