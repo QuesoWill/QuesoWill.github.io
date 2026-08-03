@@ -765,6 +765,18 @@ section {
   overflow: hidden;
 }
 
+.fit-frame {
+  display: inline-block;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.fit-frame img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
 .project-hero img {
   width: 100%;
   height: auto;
