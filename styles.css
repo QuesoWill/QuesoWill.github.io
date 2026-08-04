@@ -960,6 +960,32 @@ section {
   cursor: zoom-in;
 }
 
+.lightbox-prev,
+.lightbox-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 60px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    padding: 20px;
+    transition: opacity .2s;
+}
+
+.lightbox-prev {
+    left: 20px;
+}
+
+.lightbox-next {
+    right: 20px;
+}
+
+.lightbox-prev:hover,
+.lightbox-next:hover {
+    opacity: 0.7;
+}
+
 /* ============================================================
    RESPONSIVE
    ============================================================ */
