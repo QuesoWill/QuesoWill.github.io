@@ -227,10 +227,22 @@ const lightboxImg = document.getElementById("lightbox-img");
 const closeBtn = lightbox.querySelector(".close");
 
 document.querySelectorAll(".clickable-image").forEach(img => {
-  img.addEventListener("click", () => {
-    lightboxImg.src = img.src;
-    lightbox.style.display = "flex";
-  });
+
+    img.addEventListener("click", () => {
+
+        const figure = img.closest("figure");
+
+        currentImages = Array.from(
+            figure.querySelectorAll(".clickable-image")
+        );
+
+        currentIndex = currentImages.indexOf(img);
+
+        showImage(currentIndex);
+
+        lightbox.style.display = "flex";
+    });
+
 });
 
 closeBtn.addEventListener("click", () => {
@@ -247,6 +259,46 @@ lightbox.addEventListener("click", (e) => {
     lightbox.style.display = "none";
   }
 });
+  document.querySelector(".lightbox-prev").onclick = () => {
+    currentIndex =
+        (currentIndex - 1 + currentImages.length) %
+        currentImages.length;
+
+    showImage(currentIndex);
+};
+
+document.querySelector(".lightbox-next").onclick = () => {
+    currentIndex =
+        (currentIndex + 1) %
+        currentImages.length;
+
+    showImage(currentIndex);
+};
+  document.addEventListener("keydown", e => {
+
+    if (lightbox.style.display !== "flex") return;
+
+    if (e.key === "ArrowLeft")
+        document.querySelector(".lightbox-prev").click();
+
+    if (e.key === "ArrowRight")
+        document.querySelector(".lightbox-next").click();
+
+    if (e.key === "Escape")
+        lightbox.style.display = "none";
+});
+
+  let currentImages = [];
+let currentIndex = 0;
+
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightbox-img");
+
+function showImage(index) {
+    currentIndex = index;
+    lightboxImg.src = currentImages[currentIndex].src;
+}
+  
 </script>
 
 </body>
