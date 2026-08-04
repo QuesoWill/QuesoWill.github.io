@@ -264,7 +264,9 @@ if (currentImages.length > 1) {
     nextBtn.style.display = "none";
 }
 restartBtn.onclick = () => {
-    const src = lightboxImg.src;
+    const src = currentImages[currentIndex].src;
+    lightboxImg.src = src + "?t=" + Date.now();
+};
 
     // Remove and re-add the source to restart the GIF
     lightboxImg.src = "";
