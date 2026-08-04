@@ -255,24 +255,23 @@ document.querySelectorAll(".clickable-image").forEach(img => {
         );
 
         currentIndex = currentImages.indexOf(img);
-      // Show arrows only if this figure has multiple images
-if (currentImages.length > 1) {
-    prevBtn.style.display = "block";
-    nextBtn.style.display = "block";
-} else {
-    prevBtn.style.display = "none";
-    nextBtn.style.display = "none";
-}
-restartBtn.onclick = () => {
-    const src = currentImages[currentIndex].src;
-    lightboxImg.src = src + "?t=" + Date.now();
-};
 
-    // Remove and re-add the source to restart the GIF
-    lightboxImg.src = "";
-    lightboxImg.offsetHeight; // Force browser reflow
-    lightboxImg.src = src;
+        // Show arrows only if this figure has multiple images
+        if (currentImages.length > 1) {
+            prevBtn.style.display = "block";
+            nextBtn.style.display = "block";
+        } else {
+            prevBtn.style.display = "none";
+            nextBtn.style.display = "none";
+        }
+
+        showImage(currentIndex);
+
+        lightbox.style.display = "flex";
+    });
+
 });
+
 
         showImage(currentIndex);
 
@@ -289,6 +288,16 @@ lightbox.addEventListener("click", (e) => {
   if (e.target === lightbox) {
     lightbox.style.display = "none";
   }
+});
+  restartBtn.onclick = () => {
+    const src = currentImages[currentIndex].src;
+    lightboxImg.src = src + "?t=" + Date.now();
+};
+
+    // Remove and re-add the source to restart the GIF
+    lightboxImg.src = "";
+    lightboxImg.offsetHeight; // Force browser reflow
+    lightboxImg.src = src;
 });
   document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") {
