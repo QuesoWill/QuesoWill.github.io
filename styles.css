@@ -789,9 +789,8 @@ section {
 }
 
 .image-row img {
-    width: 50%;
+    flex: 1;
     height: auto;
-    display: block;
 }
 
 .project-hero figcaption,
