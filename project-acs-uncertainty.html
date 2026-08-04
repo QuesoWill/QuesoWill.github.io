@@ -211,7 +211,10 @@
     <img id="lightbox-img" src="" alt="">
 
     <span class="lightbox-next">&#10095;</span>
+  
+    <button class="lightbox-restart">↻ Restart</button>
 </div>
+  
   
 <script src="config.js"></script>
 <script src="components.js"></script>
@@ -222,13 +225,23 @@ const lightboxImg = document.getElementById("lightbox-img");
 const closeBtn = lightbox.querySelector(".close");
 const prevBtn = document.querySelector(".lightbox-prev");
 const nextBtn = document.querySelector(".lightbox-next");
+const restartBtn = document.querySelector(".lightbox-restart");
 
 let currentImages = [];
 let currentIndex = 0;
 
 function showImage(index) {
     currentIndex = index;
-    lightboxImg.src = currentImages[currentIndex].src;
+
+    const img = currentImages[currentIndex];
+    lightboxImg.src = img.src;
+
+    // Show restart button only for GIFs
+    if (img.src.toLowerCase().endsWith(".gif")) {
+        restartBtn.style.display = "block";
+    } else {
+        restartBtn.style.display = "none";
+    }
 }
 
 document.querySelectorAll(".clickable-image").forEach(img => {
@@ -250,6 +263,14 @@ if (currentImages.length > 1) {
     prevBtn.style.display = "none";
     nextBtn.style.display = "none";
 }
+restartBtn.onclick = () => {
+    const src = lightboxImg.src;
+
+    // Remove and re-add the source to restart the GIF
+    lightboxImg.src = "";
+    lightboxImg.offsetHeight; // Force browser reflow
+    lightboxImg.src = src;
+};
 
         showImage(currentIndex);
 
