@@ -256,7 +256,6 @@ document.querySelectorAll(".clickable-image").forEach(img => {
 
         currentIndex = currentImages.indexOf(img);
 
-        // Show arrows only if this figure has multiple images
         if (currentImages.length > 1) {
             prevBtn.style.display = "block";
             nextBtn.style.display = "block";
@@ -264,14 +263,6 @@ document.querySelectorAll(".clickable-image").forEach(img => {
             prevBtn.style.display = "none";
             nextBtn.style.display = "none";
         }
-
-        showImage(currentIndex);
-
-        lightbox.style.display = "flex";
-    });
-
-});
-
 
         showImage(currentIndex);
 
