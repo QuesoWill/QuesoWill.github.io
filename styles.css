@@ -785,11 +785,11 @@ section {
 
 .image-row {
     display: flex;
-    gap: 16px;          /* space between images */
+    gap: 8px;          /* space between images */
 }
 
 .image-row img {
-    width: 50%;
+    width: 49%;
     height: auto;
     display: block;
 }
