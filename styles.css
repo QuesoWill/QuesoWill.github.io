@@ -801,6 +801,20 @@ section {
 .image-row-3 img {
     width: calc(100% / 3);
 }
+.image-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-caption {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--ink-faint);
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid var(--rule);
+    background: var(--bg);
+}
 .project-hero figcaption,
 .prose-figure figcaption {
   font-family: 'JetBrains Mono', monospace;
