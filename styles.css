@@ -782,6 +782,18 @@ section {
     width: 100%;
     height: auto;
 }
+
+.image-row {
+    display: flex;
+    gap: 16px;          /* space between images */
+}
+
+.image-row img {
+    width: 50%;
+    height: auto;
+    display: block;
+}
+
 .project-hero figcaption,
 .prose-figure figcaption {
   font-family: 'JetBrains Mono', monospace;
