@@ -799,7 +799,7 @@ section {
     gap: 2px;          /* space between images */
 }
 .image-row-3 img {
-    width: calc((100% - 32px) / 3);
+    width: calc(100% / 3);
 }
 .project-hero figcaption,
 .prose-figure figcaption {
