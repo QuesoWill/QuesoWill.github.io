@@ -294,11 +294,6 @@ lightbox.addEventListener("click", (e) => {
     lightboxImg.src = src + "?t=" + Date.now();
 };
 
-    // Remove and re-add the source to restart the GIF
-    lightboxImg.src = "";
-    lightboxImg.offsetHeight; // Force browser reflow
-    lightboxImg.src = src;
-});
   document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") {
     lightbox.style.display = "none";
