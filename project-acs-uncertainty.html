@@ -220,6 +220,8 @@
 const lightbox = document.getElementById("lightbox");
 const lightboxImg = document.getElementById("lightbox-img");
 const closeBtn = lightbox.querySelector(".close");
+const prevBtn = document.querySelector(".lightbox-prev");
+const nextBtn = document.querySelector(".lightbox-next");
 
 let currentImages = [];
 let currentIndex = 0;
@@ -240,6 +242,14 @@ document.querySelectorAll(".clickable-image").forEach(img => {
         );
 
         currentIndex = currentImages.indexOf(img);
+      // Show arrows only if this figure has multiple images
+if (currentImages.length > 1) {
+    prevBtn.style.display = "block";
+    nextBtn.style.display = "block";
+} else {
+    prevBtn.style.display = "none";
+    nextBtn.style.display = "none";
+}
 
         showImage(currentIndex);
 
