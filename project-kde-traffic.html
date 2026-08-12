@@ -41,7 +41,125 @@
   </section>
 </main>
 <footer id="site-footer" class="site-footer"></footer>
+
+<div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+
+    <span class="lightbox-prev">&#10094;</span>
+
+    <img id="lightbox-img" src="" alt="">
+
+    <span class="lightbox-next">&#10095;</span>
+  
+    <button class="lightbox-restart">↻ Restart</button>
+</div>
+  
+  
 <script src="config.js"></script>
 <script src="components.js"></script>
+
+<script>
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightbox-img");
+const closeBtn = lightbox.querySelector(".close");
+const prevBtn = document.querySelector(".lightbox-prev");
+const nextBtn = document.querySelector(".lightbox-next");
+const restartBtn = document.querySelector(".lightbox-restart");
+
+let currentImages = [];
+let currentIndex = 0;
+
+function showImage(index) {
+    currentIndex = index;
+
+    const img = currentImages[currentIndex];
+    lightboxImg.src = img.src;
+
+    // Show restart button only for GIFs
+    if (img.src.toLowerCase().endsWith(".gif")) {
+        restartBtn.style.display = "block";
+    } else {
+        restartBtn.style.display = "none";
+    }
+}
+
+document.querySelectorAll(".clickable-image").forEach(img => {
+
+    img.addEventListener("click", () => {
+
+        const figure = img.closest("figure");
+
+        currentImages = Array.from(
+            figure.querySelectorAll(".clickable-image")
+        );
+
+        currentIndex = currentImages.indexOf(img);
+
+        if (currentImages.length > 1) {
+            prevBtn.style.display = "block";
+            nextBtn.style.display = "block";
+        } else {
+            prevBtn.style.display = "none";
+            nextBtn.style.display = "none";
+        }
+
+        showImage(currentIndex);
+
+        lightbox.style.display = "flex";
+    });
+
+});
+
+closeBtn.addEventListener("click", () => {
+  lightbox.style.display = "none";
+});
+  
+lightbox.addEventListener("click", (e) => {
+  if (e.target === lightbox) {
+    lightbox.style.display = "none";
+  }
+});
+  restartBtn.onclick = () => {
+    const src = currentImages[currentIndex].src;
+    lightboxImg.src = src + "?t=" + Date.now();
+};
+
+  document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") {
+    lightbox.style.display = "none";
+  }
+});
+  document.querySelector(".lightbox-prev").onclick = () => {
+    currentIndex =
+        (currentIndex - 1 + currentImages.length) %
+        currentImages.length;
+
+    showImage(currentIndex);
+};
+
+document.querySelector(".lightbox-next").onclick = () => {
+    currentIndex =
+        (currentIndex + 1) %
+        currentImages.length;
+
+    showImage(currentIndex);
+};
+  document.addEventListener("keydown", e => {
+
+    if (lightbox.style.display !== "flex") return;
+
+    if (e.key === "ArrowLeft")
+        document.querySelector(".lightbox-prev").click();
+
+    if (e.key === "ArrowRight")
+        document.querySelector(".lightbox-next").click();
+
+    if (e.key === "Escape")
+        lightbox.style.display = "none";
+});
+
+ 
+  
+</script>
 </body>
 </html>
