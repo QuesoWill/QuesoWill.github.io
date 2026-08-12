@@ -66,6 +66,12 @@ Here is a portfolio of some of my class work at the University of Richmond. I ho
       year:   "May 2026",
       note:   "Cum Laude"
     },
+       {
+      school: "Towson Univeristy",
+      degree: "Geospatial Technologies Graduate Certificate",
+      Starting:   "August 2026",
+     
+    },
     // Add high school, study abroad, certificate programs, etc. here
     // {
     //   school: "...",
